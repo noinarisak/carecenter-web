@@ -7,4 +7,4 @@ To do.
 
 ## License
 
-See the [LICENSE]() for the more information about the [Unlicense.org](http://unlicense.org) legal terms.
+See the [LICENSE](https://github.com/noinarisak/carecenter-web/blob/master/LICENSE) for the more information about the [Unlicense.org](http://unlicense.org) legal terms.
