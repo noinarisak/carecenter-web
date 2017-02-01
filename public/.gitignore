@@ -1,0 +1,5 @@
+# Ignore all the out put files produced by `gulp build`
+
+css/
+fonts/
+js/
