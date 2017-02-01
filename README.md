@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/noinarisak/carecenter-web.svg?branch=poc-megaboilerplate)](https://travis-ci.org/noinarisak/carecenter-web)
+
 # Care Center Web 
 
 This Web project was created by Mega Boilerplate generator. Further details below in the Mega Boilerplate section.
