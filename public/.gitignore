@@ -1,5 +1,3 @@
-# Ignore all the out put files produced by `gulp build`
+# Ignore all the out put files produced by `gulp build` to the  /js folder
 
-css/
-fonts/
 js/
