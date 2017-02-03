@@ -63,6 +63,29 @@
             </div>
           </div>
         </div>
+        <div class="col-md-6">
+          <div class="widget wgreen">
+            <div ht-widget-header title="Organization" allow-collapse="true"></div>
+            <div class="widget-content text-center text-info">
+              <table class="table table-condensed table-striped">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr ng-repeat="o in vm.organization">
+                    <td>{{o.name}}</td>
+                    <td>{{o.web_url}}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="widget-foot">
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>

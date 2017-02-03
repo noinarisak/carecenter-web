@@ -16,11 +16,12 @@
     vm.messageCount = 0;
     vm.people = [];
     vm.title = 'Dashboard';
+    vm.organization = [];
 
     activate();
 
     function activate() {
-      var promises = [getMessageCount(), getPeople()];
+      var promises = [getMessageCount(), getPeople(), getOrganization()];
       return $q.all(promises).then(function() {
         logger.info('Activated Dashboard View');
       });
@@ -37,6 +38,14 @@
       return dataservice.getPeople().then(function(data) {
         vm.people = data;
         return vm.people;
+      });
+    }
+    
+    function getOrganization() {
+      return dataservice.getOrganization().then(function(data) {
+        vm.organization = data;
+        console.log(data);
+        return vm.organization;
       });
     }
   }
