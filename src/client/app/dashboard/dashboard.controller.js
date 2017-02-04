@@ -40,7 +40,7 @@
         return vm.people;
       });
     }
-    
+
     function getOrganization() {
       return dataservice.getOrganization().then(function(data) {
         vm.organization = data;

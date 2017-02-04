@@ -31,7 +31,7 @@
         return exception.catcher('XHR Failed for getPeople')(e);
       }
     }
-    
+
     function getOrganization() {
       return $http.get('/api/organization')
         .then(success)
@@ -43,7 +43,7 @@
       }
 
       function fail(e) {
-        return exception.catcher('XHR Failed for getPeople')(e);
+        return exception.catcher('XHR Failed for getOrganization')(e);
       }
     }
   }

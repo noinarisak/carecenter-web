@@ -1,7 +1,7 @@
 {
-  "name": "carecenterweb",
+  "name": "carecenter",
   "version": "0.0.1",
-  "description": "carecenterweb",
+  "description": "Care Center web",
   "authors": [],
   "license": "MIT",
   "ignore": [
@@ -30,7 +30,7 @@
     "angular-bootstrap": "^1.2.5"
   },
   "resolutions": {
-    "angular": "1.5.3"
+    "angular": "=1.6.1"
   },
   "overrides": {
     "bootstrap": {

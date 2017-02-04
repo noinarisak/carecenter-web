@@ -13,8 +13,8 @@
   }
 
   var config = {
-    appErrorPrefix: '[carecenterweb Error] ',
-    appTitle: 'carecenterweb'
+    appErrorPrefix: '[CareCenterWeb Error] ',
+    appTitle: 'Care Center'
   };
 
   core.value('config', config);
