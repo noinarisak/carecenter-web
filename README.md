@@ -17,7 +17,7 @@
 3. Install these NPM packages globally
 
     ```bash
-    npm install -g bower gulp nodemon
+    npm install -g bower gulp nodemon yarn
     ```
 
     >Refer to these [instructions on how to not require sudo](https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md)
@@ -54,10 +54,13 @@ The structure also contains a gulpfile.js and a server folder. The server is the
 			/content
 
 ### Installing Packages
-When you generate the project it should run these commands, but if you notice missing packages, run these again:
+~~When you generate the project it should run these commands, but if you notice missing packages, run these again:~~
 
- - `npm install`
- - `bower install`
+ - ~~`npm install`~~
+ - ~~`bower install`~~
+
+Upgrade to using [Yarn](https://github.com/yarnpkg/yarn) from FB and [reason](https://code.facebook.com/posts/1840075619545360), run the following to install packages:
+ - `yarn`
 
 ### The Modules
 The app has 4 feature modules and depends on a series of external modules and custom but cross-app modules
