@@ -1,4 +1,6 @@
-# carecenterweb
+[![Build Status](https://travis-ci.org/noinarisak/carecenter-web.svg?branch=feature/poc-hottowel)](https://travis-ci.org/noinarisak/carecenter-web)
+
+# CareCenter-Web
 
 **Generated from HotTowel Angular**
 
