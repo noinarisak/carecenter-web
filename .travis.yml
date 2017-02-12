@@ -7,9 +7,8 @@ before_script:
   - npm install -g gulp
   - sleep 15
 install:
-  - npm install -g bower
-  - npm install
-  - bower install --force-latest
+  - npm install -g bower yarn
+  - yarn
 script:
   - "npm test"
 notifications:
